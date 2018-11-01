@@ -182,7 +182,7 @@ post: {
 Vue.component('my-component', {
   props: {
     // 基础的类型检查 (`null` 匹配任何类型)
-    propA: Number,
+    propA: null,
     // 多个可能的类型
     propB: [String, Number],
     // 必填的字符串
